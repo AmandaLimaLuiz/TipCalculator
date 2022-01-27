@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Luxurious+Roman&family=Mochiy+Pop+P+One&family=Open+Sans:ital,wght@0,400;1,700&family=Pacifico&display=swap');
+
+body{
+    background-color: hsl(185, 41%, 84%) ;
+    font-family: 'Space Mono', monospace ;
+    
+    
+}
+.container{
+    background-color: white;
+    width: 650px;
+    height: 400px;
+    align-content: center;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 15px;
+    
+}
+.first h1{
+    color: rgb(122, 119, 119);
+    margin-bottom: 0.2px;
+}
+.first{
+    font-size: 0.6em;
+    background-color: rgb(255, 254, 254);
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+    padding: 30px 35px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+}
+.second{
+    font-size: 0.6em;
+    background-color: rgb(31, 105, 105);
+    color: white;
+    width: 40%;
+    height: 40%;
+    margin: 20px;
+    padding: 30px 35px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+    
+
+}
+h2{
+    font-size: 1em;
+    width: 10%;
+}
+.btn{
+    font-size: 1.3em;
+    width: 6em;
+    height: 3.5em;
+    margin: 5px;
+    background-color: rgb(31, 105, 105);
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    box-shadow: 1px 1px rgb(10, 95, 95);
+    background-color: rgb(212, 238, 238);
+    color: black;
+}
+.btn-other{
+
+    width: 5,3em;
+    height: 3em;
+    margin: 5px;
+    background-color: rgb(212, 238, 238);
+    font-style: normal;
+    text-align: center;
+    font-size: 1,3em;
+    font-weight: bolder;
+    border: none;
+    border-radius: 10px;
+    
+}
+input{
+    width: 70%;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(235, 245, 245);
+}
+input:hover{
+    box-shadow: 1.5px 1.5px rgb(31, 105, 105);
+}
