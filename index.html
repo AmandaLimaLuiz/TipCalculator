@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,47 +8,68 @@
     <link rel="stylesheet" href="assets/style.css">
     <title>Tip Calculator</title>
 </head>
+
 <body>
 
     <div class="container ">
         <table>
             <td class="first">
-        
-        <div class="input-cont">
-            <h1>Bill</h1>
-            <input type="text" class="valor" placeholder="Enter account amount ">
-            <h1>Select Tip %</h1>
-            <table class="btnTable">
-                <tr>
-                    <td><button class="btn">5%</button></td>
-                    <td><button class="btn">10%</button></td>
-                    <td><button class="btn">15%</button></td>
-                </tr>
-                <tr>
-                    <td><button class="btn">25%</button></td>
-                    <td><button class="btn">50%</button></td>
-                    <td><input type="number" class="btn-other"></td>
-                </tr>           
+
+                <div class="input-cont">
+                    <h1>Bill</h1>
+                    <form action="" id="form">
+                        <input type="text" class="valor" placeholder="Enter account amount ">
+                        <h1>Select Tip %</h1>
+                        <table class="btnTable">
+                            <tr>
+                                <td><button class="btn btn5">5%</button></td>
+                                <td><button class="btn btn10">10%</button></td>
+                                <td><button class="btn btn15">15%</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="btn btn25">25%</button></td>
+                                <td><button class="btn btn50">50%</button></td>
+                                <td><input type="text" class="btn-other"></td>
+                            </tr>
+                        </table>
+                        <h1>Number of people <p id="numP"></p></h1>
+                        <input type="text" class="people" placeholder="Enter the number of people">
+                    </form>
+                </div>
+            </td>
+            <td class="second">
+                <div class="result">
+                    <table>
+                        <tr>
+                            <td>
+                                <h1>Tip Amount</h1>
+                            </td>
+                            <td>
+                                <h2 id="valorTip"></h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><h1>Total 
+                                <h4>/ person</h2>
+                            </h1></td>
+                            <td>
+                                <h2 id="totalPessoa"></h2>
+                            </td>                           
+                        </tr>
+                        <tr>
+                            <td><h1 class="total2">Total </h1></td>
+                            <td><h2 id="totalConta"></h2></td>
+                        </tr>
+                        <tr>
+                           <td> <button class="btnRes" value="Refresh Page" onClick="window.location.reload()">reset</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
         </table>
-            <h1>Number of people</h1>
-            <input type="text" class="people" placeholder="Enter the number of people">
-        </div>
-    </td>
-    <td class="second">
-        <div class="result">
-                <h1>Tip Amount
-                    <h2></h2>
-                </h1>
-                <h1>Total <h2></h2>
-                    <h4>/ person</h2>
-                </h1>
-                <h1>Total <h2></h2>
-                </h1>
-        </div>
-    </td>
-    </table>
     </div>
- 
+
     <script src="assets/script.js"></script>
 </body>
+
 </html>

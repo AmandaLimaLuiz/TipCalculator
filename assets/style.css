@@ -8,10 +8,10 @@ body{
 }
 .container{
     background-color: white;
-    width: 650px;
+    width: 900px;
     height: 400px;
     align-content: center;
-    padding: 1%;
+    padding: 1% 1%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,48 +20,62 @@ body{
 }
 .first h1{
     color: rgb(122, 119, 119);
-    margin-bottom: 0.2px;
+    
 }
+table{
+    width: 97%;
+    height: 70%;
+    justify-items: center;
+    
+}
+
+
 .first{
     font-size: 0.6em;
-    background-color: rgb(255, 254, 254);
-    width: 40%;
-    height: 40%;
-    margin: 20px;
-    padding: 30px 35px;
+    background-color: white;
+    width: 50%;
+    height: 20%;
+    padding: 0px 5px;
     border-radius: 15px;
-    margin-bottom: 25px;
+   
+    
     
 }
 .second{
-    font-size: 0.6em;
+    font-size: 0.7em;
     background-color: rgb(31, 105, 105);
     color: white;
-    width: 40%;
-    height: 40%;
-    margin: 20px;
-    padding: 30px 35px;
+    width: 50%;
+    height: 10%;
+    margin: 10px;
+    padding: 10px 15px ;
     border-radius: 15px;
-    margin-bottom: 25px;
-    
-    
+    margin-bottom: 5px;     
 
 }
 h2{
     font-size: 1em;
     width: 10%;
 }
+div .result h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .btn{
-    font-size: 1.3em;
-    width: 6em;
-    height: 3.5em;
-    margin: 5px;
+    font-size: 1.6em;
+    width: 100px;
+    height: 3em;   
     background-color: rgb(31, 105, 105);
     color: white;
     text-align: center;
     font-weight: bolder;
     border: none;
-    border-radius: 10px;
+    border-radius: 10px;  
+    margin: 0px  0px ;
+    padding: 0px;
+    cursor: pointer;
+
 }
 .btn:hover{
     box-shadow: 1px 1px rgb(10, 95, 95);
@@ -69,14 +83,15 @@ h2{
     color: black;
 }
 .btn-other{
-
-    width: 5,3em;
+    font-weight: bolder;
+    font-size: 1.6em;
+    width: 95px;
     height: 3em;
-    margin: 5px;
-    background-color: rgb(212, 238, 238);
+    margin: 1px;
+    background-color: rgb(197, 240, 240);
     font-style: normal;
     text-align: center;
-    font-size: 1,3em;
+    font-size: 1.3em;
     font-weight: bolder;
     border: none;
     border-radius: 10px;
@@ -91,4 +106,57 @@ input{
 }
 input:hover{
     box-shadow: 1.5px 1.5px rgb(31, 105, 105);
+}
+#valorTip, #totalPessoa, #totalConta{
+    font-size: 2.9em;
+    margin-top: 20px;
+    margin-left: 65px;
+    color: rgb(159, 219, 219);
+    
+}
+.btnRes{
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(43, 94, 94);
+    background-color: rgb(197, 240, 240);
+    width: 110%;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+.btnRes:hover{
+    
+    box-shadow: 1.5px 1.5px rgb(56, 58, 58);
+}
+#numP{
+    font-size: 0.61em;
+    color: rgb(168, 15, 15);
+    margin-left: 200px;
+    margin-top: 0;
+}
+.people, .valor{
+    font-family:  'Space Mono', monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: rgb(31, 105, 105);
+    text-align: right;
+    padding: 0px 5px;
+    
+}
+
+.people:hover, .valor:hover{
+    font-family:  'Space Mono', monospace;
+    font-size: 1.9em;
+    font-weight: bolder;
+    color: rgb(31, 105, 105);
+    text-align: right;
+    padding: 0px 5px;
+    
 }
